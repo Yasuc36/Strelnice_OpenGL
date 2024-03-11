@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="vancafra.cpp" />
+    <ClCompile Include="EBO.cpp">
+      <Filter>Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="VAO.cpp">
+      <Filter>Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="VBO.cpp">
+      <Filter>Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonShaders.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Callbacks.cpp">
+      <Filter>Service</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceClass.cpp">
+      <Filter>Service</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Globals.cpp">
+      <Filter>Service</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectInstance.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Butterfly.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobFunc.cpp">
+      <Filter>Service</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EBO.h">
+      <Filter>Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="VAO.h">
+      <Filter>Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="VBO.h">
+      <Filter>Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="BufferBase.h">
+      <Filter>Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonShaders.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Callbacks.h">
+      <Filter>Service</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Service</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceClass.h">
+      <Filter>Service</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectInstance.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Butterfly.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobFunc.h">
+      <Filter>Service</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Buffers">
+      <UniqueIdentifier>{15fdf619-0782-4ab5-be98-ba6ea9b07878}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{6bf49506-eb1c-436b-b858-5e4e708386b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Service">
+      <UniqueIdentifier>{2d2e89b2-da5e-43d2-ad75-daf1cebcd57f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{4a864aca-7266-4e87-b07e-48e1e9d6b86e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LightingPerFragment.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="LightingPerFragment.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Color.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Color.vert">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

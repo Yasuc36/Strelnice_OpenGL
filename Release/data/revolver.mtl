@@ -1,0 +1,45 @@
+# Blender 3.5.0 MTL File: 'revolver.blend'
+# www.blender.org
+
+newmtl Drevo
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.305466 0.168834
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump -bm 1.000000 textury/Seamless_wood_fine_sabbia_Texture_NORMAL.jpg
+
+newmtl Material.001
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Revolver.png
+
+newmtl Mosaz
+Ns 818.202515
+Ka 0.877273 0.877273 0.877273
+Kd 0.199508 0.199508 0.199508
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump -bm 1.000000 textury/Seamless_Metal_Base_Texture_NRM.jpg
+
+newmtl Zlato
+Ns 250.000000
+Ka 0.359091 0.359091 0.359091
+Kd 0.800000 0.617313 0.100046
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump -bm 0.100000 textury/Seamless_Metal_Base_Texture_NRM.jpg

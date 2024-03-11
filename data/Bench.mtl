@@ -1,0 +1,35 @@
+# Blender 3.5.1 MTL File: 'PGR_Strelnice.blend'
+# www.blender.org
+
+newmtl Bench
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Bench Diffuse.png
+map_Bump -bm 1.000000 Bench Normal.png
+
+newmtl BenchWood
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd wood/albedo.jpg
+map_Bump -bm 1.000000 wood/normals.jpg
+
+newmtl Concrete
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd concrete/albedo.jpg
+map_Bump -bm 1.000000 concrete/normals.jpg
